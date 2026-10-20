@@ -1,0 +1,2797 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IdotProjectFile Author="&lt;User Name&gt;" Version="2.2.3.7" Title="T07_full_sheet_MoS">
+  <TargetPlates>
+    <TargetPlate Identifier="Target Plate 1">
+      <Barcode />
+      <PlateType>96-Well</PlateType>
+      <AssayVolume>1.5E-05</AssayVolume>
+      <WasteWellPosition>Waste Tube</WasteWellPosition>
+      <ProtocolSteps>
+        <WellgroupProtocolStep Identifier="A1">
+          <ChildProtocolSteps>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_tSB0146_dead</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.725E-06</Volume>
+              <Concentration>0.00011499999999999999</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_Libicher_EM_7x_exact_composition1</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>4.9335E-06</Volume>
+              <Concentration>0.0003289</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_Amino_acid_mix_16_66x_6_mM_each</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>4.14E-06</Volume>
+              <Concentration>0.00027600000000000004</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_dNTPs_100_mM_total_25_mM_each</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>8.28E-07</Volume>
+              <Concentration>5.5199999999999993E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_rNTPS_50x_18_75_mM_ATP_12_5_mM_GTP_6_25_mM_CTP_6_25_mM_UTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>6.9E-07</Volume>
+              <Concentration>4.6E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_tRNA_62_72_g_l_E_coli_tRNA_extract</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.588E-06</Volume>
+              <Concentration>0.00023920000000000001</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_PUREfrex_1_0_Solution_1_2x</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.725E-06</Volume>
+              <Concentration>0.00011499999999999999</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_pSB0195_sfGFP_pepper</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.725E-06</Volume>
+              <Concentration>0.00011499999999999999</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_HBC620</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-07</Volume>
+              <Concentration>2.3E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_ddH20</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.4801E-05</Volume>
+              <Concentration>0.00098673333333333321</Concentration>
+            </MixingProtocolStep>
+          </ChildProtocolSteps>
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="0" Y="0" />
+              <EndPosition X="0" Y="0" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="B1">
+          <ChildProtocolSteps>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_Libicher_EM_7x_exact_composition1</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>4.9335E-06</Volume>
+              <Concentration>0.0003289</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_Amino_acid_mix_16_66x_6_mM_each</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>4.14E-06</Volume>
+              <Concentration>0.00027600000000000004</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_dNTPs_100_mM_total_25_mM_each</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>8.28E-07</Volume>
+              <Concentration>5.5199999999999993E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_rNTPS_50x_18_75_mM_ATP_12_5_mM_GTP_6_25_mM_CTP_6_25_mM_UTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>6.9E-07</Volume>
+              <Concentration>4.6E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_tRNA_62_72_g_l_E_coli_tRNA_extract</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.588E-06</Volume>
+              <Concentration>0.00023920000000000001</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_PUREfrex_1_0_Solution_1_2x</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.725E-06</Volume>
+              <Concentration>0.00011499999999999999</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_pSB0195_sfGFP_pepper</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.725E-06</Volume>
+              <Concentration>0.00011499999999999999</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_tSB0130_PovSak</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.725E-06</Volume>
+              <Concentration>0.00011499999999999999</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_HBC620</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-07</Volume>
+              <Concentration>2.3E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_ddH20</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.4801E-05</Volume>
+              <Concentration>0.00098673333333333321</Concentration>
+            </MixingProtocolStep>
+          </ChildProtocolSteps>
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="0" Y="1" />
+              <EndPosition X="0" Y="1" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="C1">
+          <ChildProtocolSteps>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_PUREfrex_1_0_Solution_1_2x</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.95E-06</Volume>
+              <Concentration>0.00013000000000000002</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_Hepes_KOH_pH_8_0</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>2.229E-06</Volume>
+              <Concentration>0.0001486</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_pSB0195_sfGFP_pepper</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.95E-06</Volume>
+              <Concentration>0.00013000000000000002</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_tSB0130_PovSak</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.95E-06</Volume>
+              <Concentration>0.00013000000000000002</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_potassium_glutamate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.05E-06</Volume>
+              <Concentration>7E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_hemi_magnesium_glutamate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>7.7E-07</Volume>
+              <Concentration>5.1333333333333339E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_spermidine</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.46E-07</Volume>
+              <Concentration>9.7333333333333339E-06</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_Dithithreitol</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>2.34E-07</Volume>
+              <Concentration>1.56E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_20_AAs_Nitin</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>4.68E-06</Volume>
+              <Concentration>0.000312</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_tRNA_mix</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>4.056E-06</Volume>
+              <Concentration>0.00027039999999999996</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_creatine_phosphate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>9.75E-07</Volume>
+              <Concentration>6.5000000000000008E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_dNTPs</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>9.36E-07</Volume>
+              <Concentration>6.24E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_ATP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.46E-07</Volume>
+              <Concentration>9.7333333333333339E-06</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_GTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>9.8E-08</Volume>
+              <Concentration>6.533333333333334E-06</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_CTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>4.9E-08</Volume>
+              <Concentration>3.266666666666667E-06</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_UTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>4.9E-08</Volume>
+              <Concentration>3.266666666666667E-06</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_HBC620</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.9E-07</Volume>
+              <Concentration>2.6000000000000002E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_ddH20</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.2843E-05</Volume>
+              <Concentration>0.0008562</Concentration>
+            </MixingProtocolStep>
+          </ChildProtocolSteps>
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="0" Y="2" />
+              <EndPosition X="0" Y="2" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="D1">
+          <ChildProtocolSteps>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_PUREfrex_1_0_Solution_1_2x</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.725E-06</Volume>
+              <Concentration>0.00011499999999999999</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_Hepes_KOH_pH_8_0</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.971E-06</Volume>
+              <Concentration>0.0001314</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_pSB0195_sfGFP_pepper</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.725E-06</Volume>
+              <Concentration>0.00011499999999999999</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_tSB0130_PovSak</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.725E-06</Volume>
+              <Concentration>0.00011499999999999999</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_potassium_glutamate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>9.29E-07</Volume>
+              <Concentration>6.1933333333333339E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_hemi_magnesium_glutamate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>6.81E-07</Volume>
+              <Concentration>4.5400000000000006E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_spermidine</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.29E-07</Volume>
+              <Concentration>8.6E-06</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_Dithithreitol</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>2.07E-07</Volume>
+              <Concentration>1.3799999999999998E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_20_AAs_Nitin</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>4.14E-06</Volume>
+              <Concentration>0.00027600000000000004</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_tRNA_mix</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.588E-06</Volume>
+              <Concentration>0.00023920000000000001</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_creatine_phosphate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>8.63E-07</Volume>
+              <Concentration>5.7533333333333334E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_dNTPs</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>8.28E-07</Volume>
+              <Concentration>5.5199999999999993E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_ATP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.29E-07</Volume>
+              <Concentration>8.6E-06</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_GTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>8.6E-08</Volume>
+              <Concentration>5.7333333333333332E-06</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_CTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>4.3E-08</Volume>
+              <Concentration>2.8666666666666666E-06</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_UTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>4.3E-08</Volume>
+              <Concentration>2.8666666666666666E-06</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_HBC620</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-07</Volume>
+              <Concentration>2.3E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_ddH20</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.5342E-05</Volume>
+              <Concentration>0.0010228</Concentration>
+            </MixingProtocolStep>
+          </ChildProtocolSteps>
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="0" Y="3" />
+              <EndPosition X="0" Y="3" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="E1">
+          <ChildProtocolSteps>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_Hepes_KOH_pH_8_0</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>2.011E-06</Volume>
+              <Concentration>0.00013406666666666668</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_pSB0195_sfGFP_pepper</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.725E-06</Volume>
+              <Concentration>0.00011499999999999999</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_tSB0130_PovSak</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.725E-06</Volume>
+              <Concentration>0.00011499999999999999</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_potassium_glutamate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.168E-06</Volume>
+              <Concentration>7.7866666666666671E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_hemi_magnesium_glutamate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>8.02E-07</Volume>
+              <Concentration>5.3466666666666667E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_spermidine</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.98E-07</Volume>
+              <Concentration>1.32E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_Dithithreitol</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>2.14E-07</Volume>
+              <Concentration>1.4266666666666667E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_20_AAs_Nitin</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>4.715E-06</Volume>
+              <Concentration>0.00031433333333333329</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_tRNA_mix</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>4.416E-06</Volume>
+              <Concentration>0.0002944</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_creatine_phosphate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>9.32E-07</Volume>
+              <Concentration>6.213333333333333E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_10_formyl_5_6_7_8_tetrahydrofolic_acid_1_g_L</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-07</Volume>
+              <Concentration>2.3E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_dNTPs</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>8.28E-07</Volume>
+              <Concentration>5.5199999999999993E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_ATP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>2.33E-07</Volume>
+              <Concentration>1.5533333333333333E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_GTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.9E-07</Volume>
+              <Concentration>1.2666666666666667E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_CTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>7.8E-08</Volume>
+              <Concentration>5.2E-06</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_UTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>7.8E-08</Volume>
+              <Concentration>5.2E-06</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_HBC620</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-07</Volume>
+              <Concentration>2.3E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_ddH20</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.4499E-05</Volume>
+              <Concentration>0.0009666</Concentration>
+            </MixingProtocolStep>
+          </ChildProtocolSteps>
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="0" Y="4" />
+              <EndPosition X="0" Y="4" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="F1">
+          <ChildProtocolSteps>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_Hepes_KOH_pH_8_0</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>2.011E-06</Volume>
+              <Concentration>0.00013406666666666668</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_pSB0195_sfGFP_pepper</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.725E-06</Volume>
+              <Concentration>0.00011499999999999999</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_tSB0130_PovSak</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.725E-06</Volume>
+              <Concentration>0.00011499999999999999</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_potassium_glutamate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.168E-06</Volume>
+              <Concentration>7.7866666666666671E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_hemi_magnesium_glutamate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>8.02E-07</Volume>
+              <Concentration>5.3466666666666667E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_spermidine</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.98E-07</Volume>
+              <Concentration>1.32E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_Dithithreitol</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>2.14E-07</Volume>
+              <Concentration>1.4266666666666667E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_20_AAs_Nitin</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>4.715E-06</Volume>
+              <Concentration>0.00031433333333333329</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_tRNA_mix</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>4.416E-06</Volume>
+              <Concentration>0.0002944</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_creatine_phosphate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>9.32E-07</Volume>
+              <Concentration>6.213333333333333E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_dNTPs</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>8.28E-07</Volume>
+              <Concentration>5.5199999999999993E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_ATP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>2.33E-07</Volume>
+              <Concentration>1.5533333333333333E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_GTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.9E-07</Volume>
+              <Concentration>1.2666666666666667E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_CTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>7.8E-08</Volume>
+              <Concentration>5.2E-06</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_UTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>7.8E-08</Volume>
+              <Concentration>5.2E-06</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_HBC620</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-07</Volume>
+              <Concentration>2.3E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_10_formyl_5_6_7_8_tetrahydrofolic_acid_1_g_L</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-07</Volume>
+              <Concentration>2.3E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_ddH20</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.4499E-05</Volume>
+              <Concentration>0.0009666</Concentration>
+            </MixingProtocolStep>
+          </ChildProtocolSteps>
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="0" Y="5" />
+              <EndPosition X="0" Y="5" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="G1">
+          <ChildProtocolSteps>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_Hepes_KOH_pH_8_0</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>2.011E-06</Volume>
+              <Concentration>0.00013406666666666668</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_pSB0195_sfGFP_pepper</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.725E-06</Volume>
+              <Concentration>0.00011499999999999999</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_tSB0130_PovSak</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.725E-06</Volume>
+              <Concentration>0.00011499999999999999</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_potassium_glutamate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.168E-06</Volume>
+              <Concentration>7.7866666666666671E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_hemi_magnesium_glutamate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>8.02E-07</Volume>
+              <Concentration>5.3466666666666667E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_spermidine</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.98E-07</Volume>
+              <Concentration>1.32E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_Dithithreitol</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>2.14E-07</Volume>
+              <Concentration>1.4266666666666667E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_20_AAs_Nitin</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>4.715E-06</Volume>
+              <Concentration>0.00031433333333333329</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_tRNA_mix</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>4.416E-06</Volume>
+              <Concentration>0.0002944</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_creatine_phosphate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>9.32E-07</Volume>
+              <Concentration>6.213333333333333E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_dNTPs</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>8.28E-07</Volume>
+              <Concentration>5.5199999999999993E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_ATP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>2.33E-07</Volume>
+              <Concentration>1.5533333333333333E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_GTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.9E-07</Volume>
+              <Concentration>1.2666666666666667E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_CTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>7.8E-08</Volume>
+              <Concentration>5.2E-06</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_UTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>7.8E-08</Volume>
+              <Concentration>5.2E-06</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_HBC620</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-07</Volume>
+              <Concentration>2.3E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_10_formyl_5_6_7_8_tetrahydrofolic_acid_1_g_L</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-06</Volume>
+              <Concentration>0.00022999999999999998</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_ddH20</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.1394E-05</Volume>
+              <Concentration>0.00075959999999999992</Concentration>
+            </MixingProtocolStep>
+          </ChildProtocolSteps>
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="0" Y="6" />
+              <EndPosition X="0" Y="6" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="H1">
+          <ChildProtocolSteps>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_Hepes_KOH_pH_8_0</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>2.011E-06</Volume>
+              <Concentration>0.00013406666666666668</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_pSB0195_sfGFP_pepper</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.725E-06</Volume>
+              <Concentration>0.00011499999999999999</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_tSB0130_PovSak</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.725E-06</Volume>
+              <Concentration>0.00011499999999999999</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_potassium_glutamate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.168E-06</Volume>
+              <Concentration>7.7866666666666671E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_hemi_magnesium_glutamate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>8.02E-07</Volume>
+              <Concentration>5.3466666666666667E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_spermidine</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.98E-07</Volume>
+              <Concentration>1.32E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_Dithithreitol</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>2.14E-07</Volume>
+              <Concentration>1.4266666666666667E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_20_AAs_Nitin</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>4.715E-06</Volume>
+              <Concentration>0.00031433333333333329</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_tRNA_mix</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>4.416E-06</Volume>
+              <Concentration>0.0002944</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_creatine_phosphate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>9.32E-07</Volume>
+              <Concentration>6.213333333333333E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_dNTPs</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>8.28E-07</Volume>
+              <Concentration>5.5199999999999993E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_ATP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>2.33E-07</Volume>
+              <Concentration>1.5533333333333333E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_GTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.9E-07</Volume>
+              <Concentration>1.2666666666666667E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_CTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>7.8E-08</Volume>
+              <Concentration>5.2E-06</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_UTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>7.8E-08</Volume>
+              <Concentration>5.2E-06</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_HBC620</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-07</Volume>
+              <Concentration>2.3E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_10_formyl_5_6_7_8_tetrahydrofolic_acid_10_g_L</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-06</Volume>
+              <Concentration>0.00022999999999999998</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_ddH20</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.1394E-05</Volume>
+              <Concentration>0.00075959999999999992</Concentration>
+            </MixingProtocolStep>
+          </ChildProtocolSteps>
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="0" Y="7" />
+              <EndPosition X="0" Y="7" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="A2">
+          <ChildProtocolSteps>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_PUREfrex_1_0_Solution_1_2x</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.725E-05</Volume>
+              <Concentration>0.00115</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_pSB0195_sfGFP_pepper</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.725E-06</Volume>
+              <Concentration>0.00011499999999999999</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_HBC620</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-07</Volume>
+              <Concentration>2.3E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_ddH20</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.518E-05</Volume>
+              <Concentration>0.001012</Concentration>
+            </MixingProtocolStep>
+          </ChildProtocolSteps>
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="1" Y="0" />
+              <EndPosition X="1" Y="0" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="B2">
+          <ChildProtocolSteps>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_tSB0146_dead</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.73E-06</Volume>
+              <Concentration>0.00011533333333333334</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_PUREfrex_1_0_Solution_1_2x</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.725E-05</Volume>
+              <Concentration>0.00115</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_HBC620</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-07</Volume>
+              <Concentration>2.3E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_ddH20</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.518E-05</Volume>
+              <Concentration>0.001012</Concentration>
+            </MixingProtocolStep>
+          </ChildProtocolSteps>
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="1" Y="1" />
+              <EndPosition X="1" Y="1" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="C2">
+          <ChildProtocolSteps>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_pSB0195_sfGFP_pepper</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.725E-06</Volume>
+              <Concentration>0.00011499999999999999</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_potassium_glutamate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>2.388E-06</Volume>
+              <Concentration>0.0001592</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_hemi_magnesium_glutamate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.208E-06</Volume>
+              <Concentration>8.053333333333333E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_spermidine</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>6.9E-07</Volume>
+              <Concentration>4.6E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_Dithithreitol</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>6.9E-08</Volume>
+              <Concentration>4.6E-06</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_20_AAs_Nitin</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>5.75E-06</Volume>
+              <Concentration>0.00038333333333333329</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_tRNA_mix</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>8.28E-06</Volume>
+              <Concentration>0.00055200000000000008</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_creatine_phosphate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>6.9E-07</Volume>
+              <Concentration>4.6E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_ATP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.035E-06</Volume>
+              <Concentration>6.900000000000001E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_GTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.035E-06</Volume>
+              <Concentration>6.900000000000001E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_CTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-07</Volume>
+              <Concentration>2.3E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_UTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-07</Volume>
+              <Concentration>2.3E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_HBC620</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-07</Volume>
+              <Concentration>2.3E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_10_formyl_5_6_7_8_tetrahydrofolic_acid_1_g_L</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-07</Volume>
+              <Concentration>2.3E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_Hepes_KOH_pH_7_6</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.94E-07</Volume>
+              <Concentration>2.6266666666666667E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_ddH20</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>9.856E-06</Volume>
+              <Concentration>0.00065706666666666674</Concentration>
+            </MixingProtocolStep>
+          </ChildProtocolSteps>
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="1" Y="2" />
+              <EndPosition X="1" Y="2" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="D2">
+          <ChildProtocolSteps>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_pSB0195_sfGFP_pepper</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.725E-06</Volume>
+              <Concentration>0.00011499999999999999</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_potassium_glutamate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>2.388E-06</Volume>
+              <Concentration>0.0001592</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_hemi_magnesium_glutamate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.208E-06</Volume>
+              <Concentration>8.053333333333333E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_spermidine</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>6.9E-07</Volume>
+              <Concentration>4.6E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_Dithithreitol</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>6.9E-08</Volume>
+              <Concentration>4.6E-06</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_20_AAs_Nitin</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>5.75E-06</Volume>
+              <Concentration>0.00038333333333333329</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_tRNA_mix</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>8.28E-06</Volume>
+              <Concentration>0.00055200000000000008</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_creatine_phosphate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>6.9E-07</Volume>
+              <Concentration>4.6E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_ATP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.035E-06</Volume>
+              <Concentration>6.900000000000001E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_GTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.035E-06</Volume>
+              <Concentration>6.900000000000001E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_CTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-07</Volume>
+              <Concentration>2.3E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_UTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-07</Volume>
+              <Concentration>2.3E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_HBC620</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-07</Volume>
+              <Concentration>2.3E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_10_formyl_5_6_7_8_tetrahydrofolic_acid_10_g_L</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-07</Volume>
+              <Concentration>2.3E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_Hepes_KOH_pH_7_6</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.94E-07</Volume>
+              <Concentration>2.6266666666666667E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_ddH20</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>9.856E-06</Volume>
+              <Concentration>0.00065706666666666674</Concentration>
+            </MixingProtocolStep>
+          </ChildProtocolSteps>
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="1" Y="3" />
+              <EndPosition X="1" Y="3" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="E2">
+          <ChildProtocolSteps>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_pSB0195_sfGFP_pepper</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.725E-06</Volume>
+              <Concentration>0.00011499999999999999</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_potassium_glutamate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>2.388E-06</Volume>
+              <Concentration>0.0001592</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_hemi_magnesium_glutamate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.208E-06</Volume>
+              <Concentration>8.053333333333333E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_spermidine</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>6.9E-07</Volume>
+              <Concentration>4.6E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_Dithithreitol</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>6.9E-08</Volume>
+              <Concentration>4.6E-06</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_20_AAs_Nitin</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>5.75E-06</Volume>
+              <Concentration>0.00038333333333333329</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_tRNA_mix</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>8.28E-06</Volume>
+              <Concentration>0.00055200000000000008</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_creatine_phosphate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>6.9E-07</Volume>
+              <Concentration>4.6E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_ATP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.035E-06</Volume>
+              <Concentration>6.900000000000001E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_GTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.035E-06</Volume>
+              <Concentration>6.900000000000001E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_CTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-07</Volume>
+              <Concentration>2.3E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_UTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-07</Volume>
+              <Concentration>2.3E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_HBC620</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-07</Volume>
+              <Concentration>2.3E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_10_formyl_5_6_7_8_tetrahydrofolic_acid_10_g_L</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-06</Volume>
+              <Concentration>0.00022999999999999998</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_Hepes_KOH_pH_7_6</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.94E-07</Volume>
+              <Concentration>2.6266666666666667E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_ddH20</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>6.751E-06</Volume>
+              <Concentration>0.00045006666666666669</Concentration>
+            </MixingProtocolStep>
+          </ChildProtocolSteps>
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="1" Y="4" />
+              <EndPosition X="1" Y="4" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="F2">
+          <ChildProtocolSteps>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_pSB0195_sfGFP_pepper</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.725E-06</Volume>
+              <Concentration>0.00011499999999999999</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_potassium_glutamate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>2.388E-06</Volume>
+              <Concentration>0.0001592</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_hemi_magnesium_glutamate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.208E-06</Volume>
+              <Concentration>8.053333333333333E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_spermidine</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>6.9E-07</Volume>
+              <Concentration>4.6E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_Dithithreitol</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>6.9E-08</Volume>
+              <Concentration>4.6E-06</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_20_AAs_Nitin</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>5.75E-06</Volume>
+              <Concentration>0.00038333333333333329</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_tRNA_mix</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>8.28E-06</Volume>
+              <Concentration>0.00055200000000000008</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_creatine_phosphate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>6.9E-07</Volume>
+              <Concentration>4.6E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_ATP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.035E-06</Volume>
+              <Concentration>6.900000000000001E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_GTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.035E-06</Volume>
+              <Concentration>6.900000000000001E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_CTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-07</Volume>
+              <Concentration>2.3E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_UTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-07</Volume>
+              <Concentration>2.3E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_HBC620</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-07</Volume>
+              <Concentration>2.3E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_10_formyl_5_6_7_8_tetrahydrofolic_acid_100_g_L</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.035E-06</Volume>
+              <Concentration>6.900000000000001E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_Hepes_KOH_pH_7_6</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.94E-07</Volume>
+              <Concentration>2.6266666666666667E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_ddH20</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>9.166E-06</Volume>
+              <Concentration>0.0006110666666666667</Concentration>
+            </MixingProtocolStep>
+          </ChildProtocolSteps>
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="1" Y="5" />
+              <EndPosition X="1" Y="5" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="G2">
+          <ChildProtocolSteps>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_pSB0195_sfGFP_pepper</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.725E-06</Volume>
+              <Concentration>0.00011499999999999999</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_potassium_glutamate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>2.388E-06</Volume>
+              <Concentration>0.0001592</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_hemi_magnesium_glutamate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.208E-06</Volume>
+              <Concentration>8.053333333333333E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_spermidine</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>6.9E-07</Volume>
+              <Concentration>4.6E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_Dithithreitol</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>6.9E-08</Volume>
+              <Concentration>4.6E-06</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_20_AAs_Nitin</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>5.75E-06</Volume>
+              <Concentration>0.00038333333333333329</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_tRNA_mix</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>8.28E-06</Volume>
+              <Concentration>0.00055200000000000008</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_creatine_phosphate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>6.9E-07</Volume>
+              <Concentration>4.6E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_ATP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.035E-06</Volume>
+              <Concentration>6.900000000000001E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_GTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.035E-06</Volume>
+              <Concentration>6.900000000000001E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_CTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-07</Volume>
+              <Concentration>2.3E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_UTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-07</Volume>
+              <Concentration>2.3E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_HBC620</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-07</Volume>
+              <Concentration>2.3E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_10_formyl_5_6_7_8_tetrahydrofolic_acid_100_g_L</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>2.076E-06</Volume>
+              <Concentration>0.0001384</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_Hepes_KOH_pH_7_6</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.94E-07</Volume>
+              <Concentration>2.6266666666666667E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_ddH20</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>8.125E-06</Volume>
+              <Concentration>0.00054166666666666664</Concentration>
+            </MixingProtocolStep>
+          </ChildProtocolSteps>
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="1" Y="6" />
+              <EndPosition X="1" Y="6" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="H2">
+          <ChildProtocolSteps>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_pSB0195_sfGFP_pepper</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.725E-06</Volume>
+              <Concentration>0.00011499999999999999</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_potassium_glutamate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>2.388E-06</Volume>
+              <Concentration>0.0001592</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_hemi_magnesium_glutamate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.208E-06</Volume>
+              <Concentration>8.053333333333333E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_spermidine</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>6.9E-07</Volume>
+              <Concentration>4.6E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_Dithithreitol</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>6.9E-08</Volume>
+              <Concentration>4.6E-06</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_20_AAs_Nitin</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>5.75E-06</Volume>
+              <Concentration>0.00038333333333333329</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_tRNA_mix</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>8.28E-06</Volume>
+              <Concentration>0.00055200000000000008</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_creatine_phosphate</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>6.9E-07</Volume>
+              <Concentration>4.6E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_ATP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.035E-06</Volume>
+              <Concentration>6.900000000000001E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_GTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.035E-06</Volume>
+              <Concentration>6.900000000000001E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_CTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-07</Volume>
+              <Concentration>2.3E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_UTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-07</Volume>
+              <Concentration>2.3E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_HBC620</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-07</Volume>
+              <Concentration>2.3E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_10_formyl_5_6_7_8_tetrahydrofolic_acid_100_g_L</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.45E-06</Volume>
+              <Concentration>0.00022999999999999998</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_Hepes_KOH_pH_7_6</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.94E-07</Volume>
+              <Concentration>2.6266666666666667E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_ddH20</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>6.751E-06</Volume>
+              <Concentration>0.00045006666666666669</Concentration>
+            </MixingProtocolStep>
+          </ChildProtocolSteps>
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="1" Y="7" />
+              <EndPosition X="1" Y="7" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="A3">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="2" Y="0" />
+              <EndPosition X="2" Y="0" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="B3">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="2" Y="1" />
+              <EndPosition X="2" Y="1" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="C3">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="2" Y="2" />
+              <EndPosition X="2" Y="2" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="D3">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="2" Y="3" />
+              <EndPosition X="2" Y="3" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="E3">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="2" Y="4" />
+              <EndPosition X="2" Y="4" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="F3">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="2" Y="5" />
+              <EndPosition X="2" Y="5" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="G3">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="2" Y="6" />
+              <EndPosition X="2" Y="6" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="H3">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="2" Y="7" />
+              <EndPosition X="2" Y="7" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="A4">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="3" Y="0" />
+              <EndPosition X="3" Y="0" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="B4">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="3" Y="1" />
+              <EndPosition X="3" Y="1" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="C4">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="3" Y="2" />
+              <EndPosition X="3" Y="2" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="D4">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="3" Y="3" />
+              <EndPosition X="3" Y="3" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="E4">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="3" Y="4" />
+              <EndPosition X="3" Y="4" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="F4">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="3" Y="5" />
+              <EndPosition X="3" Y="5" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="G4">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="3" Y="6" />
+              <EndPosition X="3" Y="6" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="H4">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="3" Y="7" />
+              <EndPosition X="3" Y="7" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="A5">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="4" Y="0" />
+              <EndPosition X="4" Y="0" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="B5">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="4" Y="1" />
+              <EndPosition X="4" Y="1" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="C5">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="4" Y="2" />
+              <EndPosition X="4" Y="2" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="D5">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="4" Y="3" />
+              <EndPosition X="4" Y="3" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="E5">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="4" Y="4" />
+              <EndPosition X="4" Y="4" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="F5">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="4" Y="5" />
+              <EndPosition X="4" Y="5" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="G5">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="4" Y="6" />
+              <EndPosition X="4" Y="6" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="H5">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="4" Y="7" />
+              <EndPosition X="4" Y="7" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="A6">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="5" Y="0" />
+              <EndPosition X="5" Y="0" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="B6">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="5" Y="1" />
+              <EndPosition X="5" Y="1" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="C6">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="5" Y="2" />
+              <EndPosition X="5" Y="2" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="D6">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="5" Y="3" />
+              <EndPosition X="5" Y="3" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="E6">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="5" Y="4" />
+              <EndPosition X="5" Y="4" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="F6">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="5" Y="5" />
+              <EndPosition X="5" Y="5" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="G6">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="5" Y="6" />
+              <EndPosition X="5" Y="6" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="H6">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="5" Y="7" />
+              <EndPosition X="5" Y="7" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="A7">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="6" Y="0" />
+              <EndPosition X="6" Y="0" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="B7">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="6" Y="1" />
+              <EndPosition X="6" Y="1" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="C7">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="6" Y="2" />
+              <EndPosition X="6" Y="2" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="D7">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="6" Y="3" />
+              <EndPosition X="6" Y="3" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="E7">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="6" Y="4" />
+              <EndPosition X="6" Y="4" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="F7">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="6" Y="5" />
+              <EndPosition X="6" Y="5" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="G7">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="6" Y="6" />
+              <EndPosition X="6" Y="6" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="H7">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="6" Y="7" />
+              <EndPosition X="6" Y="7" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="A8">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="7" Y="0" />
+              <EndPosition X="7" Y="0" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="B8">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="7" Y="1" />
+              <EndPosition X="7" Y="1" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="C8">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="7" Y="2" />
+              <EndPosition X="7" Y="2" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="D8">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="7" Y="3" />
+              <EndPosition X="7" Y="3" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="E8">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="7" Y="4" />
+              <EndPosition X="7" Y="4" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="F8">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="7" Y="5" />
+              <EndPosition X="7" Y="5" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="G8">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="7" Y="6" />
+              <EndPosition X="7" Y="6" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="H8">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="7" Y="7" />
+              <EndPosition X="7" Y="7" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="A9">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="8" Y="0" />
+              <EndPosition X="8" Y="0" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="B9">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="8" Y="1" />
+              <EndPosition X="8" Y="1" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="C9">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="8" Y="2" />
+              <EndPosition X="8" Y="2" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="D9">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="8" Y="3" />
+              <EndPosition X="8" Y="3" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="E9">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="8" Y="4" />
+              <EndPosition X="8" Y="4" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="F9">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="8" Y="5" />
+              <EndPosition X="8" Y="5" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="G9">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="8" Y="6" />
+              <EndPosition X="8" Y="6" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="H9">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="8" Y="7" />
+              <EndPosition X="8" Y="7" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="A10">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="9" Y="0" />
+              <EndPosition X="9" Y="0" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="B10">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="9" Y="1" />
+              <EndPosition X="9" Y="1" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="C10">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="9" Y="2" />
+              <EndPosition X="9" Y="2" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="D10">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="9" Y="3" />
+              <EndPosition X="9" Y="3" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="E10">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="9" Y="4" />
+              <EndPosition X="9" Y="4" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="F10">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="9" Y="5" />
+              <EndPosition X="9" Y="5" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="G10">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="9" Y="6" />
+              <EndPosition X="9" Y="6" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="H10">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="9" Y="7" />
+              <EndPosition X="9" Y="7" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="A11">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="10" Y="0" />
+              <EndPosition X="10" Y="0" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="B11">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="10" Y="1" />
+              <EndPosition X="10" Y="1" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="C11">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="10" Y="2" />
+              <EndPosition X="10" Y="2" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="D11">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="10" Y="3" />
+              <EndPosition X="10" Y="3" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="E11">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="10" Y="4" />
+              <EndPosition X="10" Y="4" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="F11">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="10" Y="5" />
+              <EndPosition X="10" Y="5" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="G11">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="10" Y="6" />
+              <EndPosition X="10" Y="6" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="H11">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="10" Y="7" />
+              <EndPosition X="10" Y="7" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="A12">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="11" Y="0" />
+              <EndPosition X="11" Y="0" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="B12">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="11" Y="1" />
+              <EndPosition X="11" Y="1" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="C12">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="11" Y="2" />
+              <EndPosition X="11" Y="2" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="D12">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="11" Y="3" />
+              <EndPosition X="11" Y="3" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="E12">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="11" Y="4" />
+              <EndPosition X="11" Y="4" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="F12">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="11" Y="5" />
+              <EndPosition X="11" Y="5" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="G12">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="11" Y="6" />
+              <EndPosition X="11" Y="6" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="H12">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="11" Y="7" />
+              <EndPosition X="11" Y="7" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+      </ProtocolSteps>
+    </TargetPlate>
+  </TargetPlates>
+  <SourcePlates>
+    <SourcePlate Identifier="Source Plate 1">
+      <Barcode />
+      <PlateType>S_100</PlateType>
+      <MaxSourceWellVolume>8E-05</MaxSourceWellVolume>
+      <LiquidContent>
+        <SourceLiquid Position="A1" Volume="3.455E-06" AdditionalVolume="1.7275E-07" Liquid="MoS_tSB0146_dead" />
+        <SourceLiquid Position="A2" Volume="2.61E-05" AdditionalVolume="1.305E-06" Liquid="MoS_pSB0195_sfGFP_pepper" />
+        <SourceLiquid Position="A3" Volume="9.706E-06" AdditionalVolume="4.8529999999999993E-07" Liquid="MoS_creatine_phosphate" />
+        <SourceLiquid Position="A4" Volume="7.245E-06" AdditionalVolume="3.6225E-07" Liquid="MoS_10_formyl_5_6_7_8_tetrahydrofolic_acid_10_g_L" />
+        <SourceLiquid Position="B1" Volume="9.867E-06" AdditionalVolume="4.9335E-07" Liquid="MoS_Libicher_EM_7x_exact_composition1" />
+        <SourceLiquid Position="B2" Volume="1.23E-05" AdditionalVolume="6.15E-07" Liquid="MoS_tSB0130_PovSak" />
+        <SourceLiquid Position="B3" Volume="4.485E-06" AdditionalVolume="2.2425000000000004E-07" Liquid="MoS_10_formyl_5_6_7_8_tetrahydrofolic_acid_1_g_L" />
+        <SourceLiquid Position="B4" Volume="6.561E-06" AdditionalVolume="3.2805000000000003E-07" Liquid="MoS_10_formyl_5_6_7_8_tetrahydrofolic_acid_100_g_L" />
+        <SourceLiquid Position="C1" Volume="8.28E-06" AdditionalVolume="4.1400000000000003E-07" Liquid="MoS_Amino_acid_mix_16_66x_6_mM_each" />
+        <SourceLiquid Position="C2" Volume="2.0979E-05" AdditionalVolume="1.0489500000000001E-06" Liquid="MoS_potassium_glutamate" />
+        <SourceLiquid Position="C3" Volume="5.076E-06" AdditionalVolume="2.538E-07" Liquid="MoS_dNTPs" />
+        <SourceLiquid Position="C4" Volume="2.364E-06" AdditionalVolume="1.182E-07" Liquid="MoS_Hepes_KOH_pH_7_6" />
+        <SourceLiquid Position="D1" Volume="1.656E-06" AdditionalVolume="8.2799999999999987E-08" Liquid="MoS_dNTPs_100_mM_total_25_mM_each" />
+        <SourceLiquid Position="D2" Volume="1.1907E-05" AdditionalVolume="5.9534999999999994E-07" Liquid="MoS_hemi_magnesium_glutamate" />
+        <SourceLiquid Position="D3" Volume="7.417E-06" AdditionalVolume="3.7085E-07" Liquid="MoS_ATP" />
+        <SourceLiquid Position="D4" Volume="6.348E-05" AdditionalVolume="3.1739999999999996E-06" Liquid="MoS_ddH20" />
+        <SourceLiquid Position="E1" Volume="1.38E-06" AdditionalVolume="6.9E-08" Liquid="MoS_rNTPS_50x_18_75_mM_ATP_12_5_mM_GTP_6_25_mM_CTP_6_25_mM_UTP" />
+        <SourceLiquid Position="E2" Volume="5.207E-06" AdditionalVolume="2.6035E-07" Liquid="MoS_spermidine" />
+        <SourceLiquid Position="E3" Volume="7.154E-06" AdditionalVolume="3.577E-07" Liquid="MoS_GTP" />
+        <SourceLiquid Position="E4" Volume="6.348E-05" AdditionalVolume="3.1739999999999996E-06" Liquid="MoS_ddH20" />
+        <SourceLiquid Position="F1" Volume="7.176E-06" AdditionalVolume="3.588E-07" Liquid="MoS_tRNA_62_72_g_l_E_coli_tRNA_extract" />
+        <SourceLiquid Position="F2" Volume="1.711E-06" AdditionalVolume="8.5550000000000008E-08" Liquid="MoS_Dithithreitol" />
+        <SourceLiquid Position="F3" Volume="2.474E-06" AdditionalVolume="1.237E-07" Liquid="MoS_CTP" />
+        <SourceLiquid Position="F4" Volume="6.348E-05" AdditionalVolume="3.1739999999999996E-06" Liquid="MoS_ddH20" />
+        <SourceLiquid Position="G1" Volume="4.1625E-05" AdditionalVolume="2.08125E-06" Liquid="MoS_PUREfrex_1_0_Solution_1_2x" />
+        <SourceLiquid Position="G2" Volume="6.218E-05" AdditionalVolume="3.1090000000000002E-06" Liquid="MoS_20_AAs_Nitin" />
+        <SourceLiquid Position="G3" Volume="2.474E-06" AdditionalVolume="1.237E-07" Liquid="MoS_UTP" />
+        <SourceLiquid Position="H1" Volume="1.2244E-05" AdditionalVolume="6.122E-07" Liquid="MoS_Hepes_KOH_pH_8_0" />
+        <SourceLiquid Position="H2" Volume="7.4988E-05" AdditionalVolume="3.7494E-06" Liquid="MoS_tRNA_mix" />
+        <SourceLiquid Position="H3" Volume="5.565E-06" AdditionalVolume="2.7825E-07" Liquid="MoS_HBC620" />
+      </LiquidContent>
+    </SourcePlate>
+  </SourcePlates>
+  <ProtocolSettings>
+    <UseDeionisation>true</UseDeionisation>
+    <DispenseToWaste>true</DispenseToWaste>
+    <DispenseToWasteVolume>1E-07</DispenseToWasteVolume>
+    <DispenseToWasteCycles>3</DispenseToWasteCycles>
+    <WasteErrorHandlingLevel>Ask</WasteErrorHandlingLevel>
+    <OptimizationLevel>ReorderAndParallel</OptimizationLevel>
+    <SaveLiquids>Ask</SaveLiquids>
+  </ProtocolSettings>
+</IdotProjectFile>

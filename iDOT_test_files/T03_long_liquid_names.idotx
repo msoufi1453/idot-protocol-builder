@@ -1,0 +1,923 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IdotProjectFile Author="&lt;User Name&gt;" Version="2.2.3.7" Title="T03_long_liquid_names">
+  <TargetPlates>
+    <TargetPlate Identifier="Target Plate 1">
+      <Barcode />
+      <PlateType>96-Well</PlateType>
+      <AssayVolume>1.5E-05</AssayVolume>
+      <WasteWellPosition>Waste Tube</WasteWellPosition>
+      <ProtocolSteps>
+        <WellgroupProtocolStep Identifier="A1">
+          <ChildProtocolSteps>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_rNTPS_50x_18_75_mM_ATP_12_5_mM_GTP_6_25_mM_CTP_6_25_mM_UTP</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>6.9E-07</Volume>
+              <Concentration>4.6E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_10_formyl_5_6_7_8_tetrahydrofolic_acid_100_g_L</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>1.035E-06</Volume>
+              <Concentration>6.900000000000001E-05</Concentration>
+            </MixingProtocolStep>
+            <MixingProtocolStep Identifier="Constant">
+              <SourceLiquid>MoS_tRNA_62_72_g_l_E_coli_tRNA_extract</SourceLiquid>
+              <VolumeConcentration>Volume</VolumeConcentration>
+              <UncoupleAssayVolume>false</UncoupleAssayVolume>
+              <AssayVolume>1.5E-05</AssayVolume>
+              <Volume>3.588E-06</Volume>
+              <Concentration>0.00023920000000000001</Concentration>
+            </MixingProtocolStep>
+          </ChildProtocolSteps>
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="0" Y="0" />
+              <EndPosition X="0" Y="0" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="B1">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="0" Y="1" />
+              <EndPosition X="0" Y="1" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="C1">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="0" Y="2" />
+              <EndPosition X="0" Y="2" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="D1">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="0" Y="3" />
+              <EndPosition X="0" Y="3" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="E1">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="0" Y="4" />
+              <EndPosition X="0" Y="4" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="F1">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="0" Y="5" />
+              <EndPosition X="0" Y="5" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="G1">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="0" Y="6" />
+              <EndPosition X="0" Y="6" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="H1">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="0" Y="7" />
+              <EndPosition X="0" Y="7" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="A2">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="1" Y="0" />
+              <EndPosition X="1" Y="0" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="B2">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="1" Y="1" />
+              <EndPosition X="1" Y="1" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="C2">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="1" Y="2" />
+              <EndPosition X="1" Y="2" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="D2">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="1" Y="3" />
+              <EndPosition X="1" Y="3" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="E2">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="1" Y="4" />
+              <EndPosition X="1" Y="4" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="F2">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="1" Y="5" />
+              <EndPosition X="1" Y="5" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="G2">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="1" Y="6" />
+              <EndPosition X="1" Y="6" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="H2">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="1" Y="7" />
+              <EndPosition X="1" Y="7" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="A3">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="2" Y="0" />
+              <EndPosition X="2" Y="0" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="B3">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="2" Y="1" />
+              <EndPosition X="2" Y="1" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="C3">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="2" Y="2" />
+              <EndPosition X="2" Y="2" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="D3">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="2" Y="3" />
+              <EndPosition X="2" Y="3" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="E3">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="2" Y="4" />
+              <EndPosition X="2" Y="4" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="F3">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="2" Y="5" />
+              <EndPosition X="2" Y="5" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="G3">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="2" Y="6" />
+              <EndPosition X="2" Y="6" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="H3">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="2" Y="7" />
+              <EndPosition X="2" Y="7" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="A4">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="3" Y="0" />
+              <EndPosition X="3" Y="0" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="B4">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="3" Y="1" />
+              <EndPosition X="3" Y="1" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="C4">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="3" Y="2" />
+              <EndPosition X="3" Y="2" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="D4">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="3" Y="3" />
+              <EndPosition X="3" Y="3" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="E4">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="3" Y="4" />
+              <EndPosition X="3" Y="4" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="F4">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="3" Y="5" />
+              <EndPosition X="3" Y="5" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="G4">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="3" Y="6" />
+              <EndPosition X="3" Y="6" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="H4">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="3" Y="7" />
+              <EndPosition X="3" Y="7" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="A5">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="4" Y="0" />
+              <EndPosition X="4" Y="0" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="B5">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="4" Y="1" />
+              <EndPosition X="4" Y="1" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="C5">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="4" Y="2" />
+              <EndPosition X="4" Y="2" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="D5">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="4" Y="3" />
+              <EndPosition X="4" Y="3" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="E5">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="4" Y="4" />
+              <EndPosition X="4" Y="4" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="F5">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="4" Y="5" />
+              <EndPosition X="4" Y="5" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="G5">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="4" Y="6" />
+              <EndPosition X="4" Y="6" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="H5">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="4" Y="7" />
+              <EndPosition X="4" Y="7" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="A6">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="5" Y="0" />
+              <EndPosition X="5" Y="0" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="B6">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="5" Y="1" />
+              <EndPosition X="5" Y="1" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="C6">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="5" Y="2" />
+              <EndPosition X="5" Y="2" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="D6">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="5" Y="3" />
+              <EndPosition X="5" Y="3" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="E6">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="5" Y="4" />
+              <EndPosition X="5" Y="4" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="F6">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="5" Y="5" />
+              <EndPosition X="5" Y="5" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="G6">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="5" Y="6" />
+              <EndPosition X="5" Y="6" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="H6">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="5" Y="7" />
+              <EndPosition X="5" Y="7" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="A7">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="6" Y="0" />
+              <EndPosition X="6" Y="0" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="B7">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="6" Y="1" />
+              <EndPosition X="6" Y="1" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="C7">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="6" Y="2" />
+              <EndPosition X="6" Y="2" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="D7">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="6" Y="3" />
+              <EndPosition X="6" Y="3" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="E7">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="6" Y="4" />
+              <EndPosition X="6" Y="4" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="F7">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="6" Y="5" />
+              <EndPosition X="6" Y="5" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="G7">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="6" Y="6" />
+              <EndPosition X="6" Y="6" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="H7">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="6" Y="7" />
+              <EndPosition X="6" Y="7" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="A8">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="7" Y="0" />
+              <EndPosition X="7" Y="0" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="B8">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="7" Y="1" />
+              <EndPosition X="7" Y="1" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="C8">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="7" Y="2" />
+              <EndPosition X="7" Y="2" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="D8">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="7" Y="3" />
+              <EndPosition X="7" Y="3" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="E8">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="7" Y="4" />
+              <EndPosition X="7" Y="4" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="F8">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="7" Y="5" />
+              <EndPosition X="7" Y="5" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="G8">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="7" Y="6" />
+              <EndPosition X="7" Y="6" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="H8">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="7" Y="7" />
+              <EndPosition X="7" Y="7" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="A9">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="8" Y="0" />
+              <EndPosition X="8" Y="0" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="B9">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="8" Y="1" />
+              <EndPosition X="8" Y="1" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="C9">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="8" Y="2" />
+              <EndPosition X="8" Y="2" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="D9">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="8" Y="3" />
+              <EndPosition X="8" Y="3" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="E9">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="8" Y="4" />
+              <EndPosition X="8" Y="4" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="F9">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="8" Y="5" />
+              <EndPosition X="8" Y="5" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="G9">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="8" Y="6" />
+              <EndPosition X="8" Y="6" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="H9">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="8" Y="7" />
+              <EndPosition X="8" Y="7" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="A10">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="9" Y="0" />
+              <EndPosition X="9" Y="0" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="B10">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="9" Y="1" />
+              <EndPosition X="9" Y="1" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="C10">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="9" Y="2" />
+              <EndPosition X="9" Y="2" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="D10">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="9" Y="3" />
+              <EndPosition X="9" Y="3" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="E10">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="9" Y="4" />
+              <EndPosition X="9" Y="4" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="F10">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="9" Y="5" />
+              <EndPosition X="9" Y="5" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="G10">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="9" Y="6" />
+              <EndPosition X="9" Y="6" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="H10">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="9" Y="7" />
+              <EndPosition X="9" Y="7" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="A11">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="10" Y="0" />
+              <EndPosition X="10" Y="0" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="B11">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="10" Y="1" />
+              <EndPosition X="10" Y="1" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="C11">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="10" Y="2" />
+              <EndPosition X="10" Y="2" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="D11">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="10" Y="3" />
+              <EndPosition X="10" Y="3" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="E11">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="10" Y="4" />
+              <EndPosition X="10" Y="4" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="F11">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="10" Y="5" />
+              <EndPosition X="10" Y="5" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="G11">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="10" Y="6" />
+              <EndPosition X="10" Y="6" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="H11">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="10" Y="7" />
+              <EndPosition X="10" Y="7" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="A12">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="11" Y="0" />
+              <EndPosition X="11" Y="0" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="B12">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="11" Y="1" />
+              <EndPosition X="11" Y="1" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="C12">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="11" Y="2" />
+              <EndPosition X="11" Y="2" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="D12">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="11" Y="3" />
+              <EndPosition X="11" Y="3" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="E12">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="11" Y="4" />
+              <EndPosition X="11" Y="4" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="F12">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="11" Y="5" />
+              <EndPosition X="11" Y="5" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="G12">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="11" Y="6" />
+              <EndPosition X="11" Y="6" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+        <WellgroupProtocolStep Identifier="H12">
+          <ChildProtocolSteps />
+          <CellGroupList>
+            <CellGroup>
+              <BeginPosition X="11" Y="7" />
+              <EndPosition X="11" Y="7" />
+            </CellGroup>
+          </CellGroupList>
+        </WellgroupProtocolStep>
+      </ProtocolSteps>
+    </TargetPlate>
+  </TargetPlates>
+  <SourcePlates>
+    <SourcePlate Identifier="Source Plate 1">
+      <Barcode />
+      <PlateType>S_100</PlateType>
+      <MaxSourceWellVolume>8E-05</MaxSourceWellVolume>
+      <LiquidContent>
+        <SourceLiquid Position="A1" Volume="6.9E-07" AdditionalVolume="3.45E-08" Liquid="MoS_rNTPS_50x_18_75_mM_ATP_12_5_mM_GTP_6_25_mM_CTP_6_25_mM_UTP" />
+        <SourceLiquid Position="B1" Volume="1.035E-06" AdditionalVolume="5.1750000000000003E-08" Liquid="MoS_10_formyl_5_6_7_8_tetrahydrofolic_acid_100_g_L" />
+        <SourceLiquid Position="C1" Volume="3.588E-06" AdditionalVolume="1.794E-07" Liquid="MoS_tRNA_62_72_g_l_E_coli_tRNA_extract" />
+      </LiquidContent>
+    </SourcePlate>
+  </SourcePlates>
+  <ProtocolSettings>
+    <UseDeionisation>true</UseDeionisation>
+    <DispenseToWaste>true</DispenseToWaste>
+    <DispenseToWasteVolume>1E-07</DispenseToWasteVolume>
+    <DispenseToWasteCycles>3</DispenseToWasteCycles>
+    <WasteErrorHandlingLevel>Ask</WasteErrorHandlingLevel>
+    <OptimizationLevel>ReorderAndParallel</OptimizationLevel>
+    <SaveLiquids>Ask</SaveLiquids>
+  </ProtocolSettings>
+</IdotProjectFile>

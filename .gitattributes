@@ -1,0 +1,4 @@
+# keep the iDOT files byte-for-byte (UTF-8 BOM + CRLF) on every OS
+*.idotx -text
+*.csv -text
+*.bat text eol=crlf
